@@ -1,0 +1,9 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "trying stuff",
+  "main": "index.js",
+  "repository": "https://github.com/siffogh/playground",
+  "author": "siffogh <siffogh3@gmail.com>",
+  "license": "MIT"
+}

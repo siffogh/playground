@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: yellow;
+}
+.container-header {
+    flex-shrink: 0;
+    background: deepskyblue;
+}
+.header-top {
+    background: #B64A57;
+}
+.header-bottom {
+
+}
+.container-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.body-top {
+    flex-grow: 1;
+    flex-shrink: 0;
+    background: aquamarine;
+}
+.body-bottom {
+    flex-shrink: 0;
+    min-height: 204px;
+}
+.bottom-header {
+    background-color: #eee;
+    height: 24px;
+}
+.bottom-content {
+
+}

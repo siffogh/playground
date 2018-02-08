@@ -3,7 +3,18 @@
   "version": "1.0.0",
   "description": "trying stuff",
   "main": "index.js",
+  "scripts": {
+    "build": "parcel build --out-dir flexbox/dist --public-url ./ flexbox/index.html",
+    "start": "parcel --out-dir flexbox/build flexbox/index.html"
+  },
   "repository": "https://github.com/siffogh/playground",
   "author": "siffogh <siffogh3@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-react": "^6.24.1"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
 }

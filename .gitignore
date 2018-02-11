@@ -1,4 +1,5 @@
 node_modules
 .cache/
 flexbox/build/
+collapsable/build/
 resizable/build/

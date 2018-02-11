@@ -1,0 +1,31 @@
+
+.horizontal-pane{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  overflow: hidden;
+
+  .top {
+    flex-grow: 1;
+  }
+
+  .resizer {
+    position: relative;
+    margin: -5px 0;
+    box-sizing: border-box;
+    background: black;
+    background-clip: padding-box;
+    opacity: 0.2;
+    height: 11px;
+    border-bottom: 5px solid rgba(255,255,255,0);
+    border-top: 5px solid rgba(255,255,255,0);
+  }
+
+  .resizer:hover {
+    cursor: row-resize;
+  }
+
+  .bottom {
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,26 @@
+.collapsable {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  background: black;
+
+  .collapsable-header {
+    background: #cae3c5;
+    flex-shrink: 0;
+  }
+
+  .collapsable-body {
+    flex-grow: 1;
+    background: red;
+    overflow: hidden;
+  }
+
+  .collapse {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+  }
+
+}
